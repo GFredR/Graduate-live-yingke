@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		781C7DC021DEF19700AF6D62 /* GFRFocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781C7DBE21DEF19700AF6D62 /* GFRFocusViewController.swift */; };
+		781C7DC121DEF19700AF6D62 /* GFRFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781C7DBF21DEF19700AF6D62 /* GFRFocusViewController.xib */; };
+		781C7DC421DEF1BE00AF6D62 /* GFRHotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781C7DC221DEF1BE00AF6D62 /* GFRHotViewController.swift */; };
+		781C7DC521DEF1BE00AF6D62 /* GFRHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781C7DC321DEF1BE00AF6D62 /* GFRHotViewController.xib */; };
+		781C7DC821DEF1CE00AF6D62 /* GFRNearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781C7DC621DEF1CE00AF6D62 /* GFRNearViewController.swift */; };
+		781C7DC921DEF1CE00AF6D62 /* GFRNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781C7DC721DEF1CE00AF6D62 /* GFRNearViewController.xib */; };
+		784CA8FF21E6D7B0006A005B /* GFRMainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784CA8FE21E6D7B0006A005B /* GFRMainTopView.swift */; };
+		78A81EE221D34EE9000E62CF /* GFRMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A81EE121D34EE9000E62CF /* GFRMacros.swift */; };
+		78A81EE621D35712000E62CF /* GFRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A81EE521D35712000E62CF /* GFRTabBarController.swift */; };
+		78BB70C921D44E9400EDF78C /* GFRExtension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BB70C821D44E9400EDF78C /* GFRExtension+UIButton.swift */; };
+		78BB70CE21D45B9600EDF78C /* GFRMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BB70CC21D45B9600EDF78C /* GFRMainViewController.swift */; };
+		78BB70CF21D45B9600EDF78C /* GFRMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB70CD21D45B9600EDF78C /* GFRMainViewController.xib */; };
+		78BB70D421D45BE900EDF78C /* GFRMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BB70D221D45BE900EDF78C /* GFRMeViewController.swift */; };
+		78BB70D521D45BE900EDF78C /* GFRMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB70D321D45BE900EDF78C /* GFRMeViewController.xib */; };
+		78DDCEB521D20C69009E43D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DDCEB321D20C69009E43D2 /* Main.storyboard */; };
+		78DDCEB721D20C6A009E43D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DDCEB621D20C6A009E43D2 /* Assets.xcassets */; };
+		78DDCEBA21D20C6A009E43D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DDCEB821D20C6A009E43D2 /* LaunchScreen.storyboard */; };
+		78DDCEDE21D20FEA009E43D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DDCECE21D20FEA009E43D2 /* AppDelegate.swift */; };
+		78DDCEE021D21FC4009E43D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DDCEDF21D21FC4009E43D2 /* ViewController.swift */; };
+		78F0366D21DDA22400367358 /* GFRBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F0366C21DDA22400367358 /* GFRBaseNavigationController.swift */; };
+		78F0366F21DDA82900367358 /* GFRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F0366E21DDA82900367358 /* GFRBaseViewController.swift */; };
+		78F0367221DDA8A400367358 /* GFRLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F0367021DDA8A400367358 /* GFRLiveViewController.swift */; };
+		78F0367321DDA8A400367358 /* GFRLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F0367121DDA8A400367358 /* GFRLiveViewController.xib */; };
+		8BFDF8A3875D2D0137F4D8D1 /* Pods_Graduate_live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BA4ABE2C1858E26AC0ECA2 /* Pods_Graduate_live.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6948DAE72B68DAA28A401BEB /* Pods-Graduate-live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graduate-live.debug.xcconfig"; path = "Target Support Files/Pods-Graduate-live/Pods-Graduate-live.debug.xcconfig"; sourceTree = "<group>"; };
+		781C7DBE21DEF19700AF6D62 /* GFRFocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRFocusViewController.swift; sourceTree = "<group>"; };
+		781C7DBF21DEF19700AF6D62 /* GFRFocusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GFRFocusViewController.xib; sourceTree = "<group>"; };
+		781C7DC221DEF1BE00AF6D62 /* GFRHotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRHotViewController.swift; sourceTree = "<group>"; };
+		781C7DC321DEF1BE00AF6D62 /* GFRHotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GFRHotViewController.xib; sourceTree = "<group>"; };
+		781C7DC621DEF1CE00AF6D62 /* GFRNearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRNearViewController.swift; sourceTree = "<group>"; };
+		781C7DC721DEF1CE00AF6D62 /* GFRNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GFRNearViewController.xib; sourceTree = "<group>"; };
+		784CA8FE21E6D7B0006A005B /* GFRMainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRMainTopView.swift; sourceTree = "<group>"; };
+		78A81EE121D34EE9000E62CF /* GFRMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRMacros.swift; sourceTree = "<group>"; };
+		78A81EE521D35712000E62CF /* GFRTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRTabBarController.swift; sourceTree = "<group>"; };
+		78BB70C821D44E9400EDF78C /* GFRExtension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GFRExtension+UIButton.swift"; sourceTree = "<group>"; };
+		78BB70CC21D45B9600EDF78C /* GFRMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRMainViewController.swift; sourceTree = "<group>"; };
+		78BB70CD21D45B9600EDF78C /* GFRMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GFRMainViewController.xib; sourceTree = "<group>"; };
+		78BB70D221D45BE900EDF78C /* GFRMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRMeViewController.swift; sourceTree = "<group>"; };
+		78BB70D321D45BE900EDF78C /* GFRMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GFRMeViewController.xib; sourceTree = "<group>"; };
+		78DDCEAC21D20C69009E43D2 /* Graduate-live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graduate-live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DDCEB421D20C69009E43D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78DDCEB621D20C6A009E43D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78DDCEB921D20C6A009E43D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78DDCEBB21D20C6A009E43D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DDCECE21D20FEA009E43D2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78DDCEDF21D21FC4009E43D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78F0366C21DDA22400367358 /* GFRBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRBaseNavigationController.swift; sourceTree = "<group>"; };
+		78F0366E21DDA82900367358 /* GFRBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRBaseViewController.swift; sourceTree = "<group>"; };
+		78F0367021DDA8A400367358 /* GFRLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRLiveViewController.swift; sourceTree = "<group>"; };
+		78F0367121DDA8A400367358 /* GFRLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GFRLiveViewController.xib; sourceTree = "<group>"; };
+		79BA4ABE2C1858E26AC0ECA2 /* Pods_Graduate_live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graduate_live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B590EC83214237A1387EA31D /* Pods-Graduate-live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graduate-live.release.xcconfig"; path = "Target Support Files/Pods-Graduate-live/Pods-Graduate-live.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78DDCEA921D20C69009E43D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFDF8A3875D2D0137F4D8D1 /* Pods_Graduate_live.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		752CA383D20CD523705A1D2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6948DAE72B68DAA28A401BEB /* Pods-Graduate-live.debug.xcconfig */,
+				B590EC83214237A1387EA31D /* Pods-Graduate-live.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78DDCEA321D20C69009E43D2 = {
+			isa = PBXGroup;
+			children = (
+				78DDCEAE21D20C69009E43D2 /* Graduate-live */,
+				78DDCEAD21D20C69009E43D2 /* Products */,
+				81C39730499B54D9596B03B6 /* Frameworks */,
+				752CA383D20CD523705A1D2F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		78DDCEAD21D20C69009E43D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCEAC21D20C69009E43D2 /* Graduate-live.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78DDCEAE21D20C69009E43D2 /* Graduate-live */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCEC121D20FEA009E43D2 /* Class */,
+				78DDCEB321D20C69009E43D2 /* Main.storyboard */,
+				78DDCEB621D20C6A009E43D2 /* Assets.xcassets */,
+				78DDCEB821D20C6A009E43D2 /* LaunchScreen.storyboard */,
+				78DDCEBB21D20C6A009E43D2 /* Info.plist */,
+			);
+			path = "Graduate-live";
+			sourceTree = "<group>";
+		};
+		78DDCEC121D20FEA009E43D2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCEC221D20FEA009E43D2 /* Launch */,
+				78DDCEC721D20FEA009E43D2 /* Show */,
+				78DDCECC21D20FEA009E43D2 /* NetWork */,
+				78DDCECD21D20FEA009E43D2 /* Other */,
+				78DDCECF21D20FEA009E43D2 /* Live */,
+				78DDCED421D20FEA009E43D2 /* Mine */,
+				78DDCED921D20FEA009E43D2 /* Lib */,
+				78DDCEDA21D20FEA009E43D2 /* Helper */,
+				78DDCEDD21D20FEA009E43D2 /* Base */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		78DDCEC221D20FEA009E43D2 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCEC321D20FEA009E43D2 /* Handler */,
+				78DDCEC421D20FEA009E43D2 /* ViewModel */,
+				78DDCEC521D20FEA009E43D2 /* Model */,
+				78DDCEC621D20FEA009E43D2 /* View */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		78DDCEC321D20FEA009E43D2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		78DDCEC421D20FEA009E43D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78DDCEC521D20FEA009E43D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78DDCEC621D20FEA009E43D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78DDCEC721D20FEA009E43D2 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCEC821D20FEA009E43D2 /* Handler */,
+				78DDCEC921D20FEA009E43D2 /* ViewModel */,
+				78DDCECA21D20FEA009E43D2 /* Model */,
+				78DDCECB21D20FEA009E43D2 /* View */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		78DDCEC821D20FEA009E43D2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		78DDCEC921D20FEA009E43D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78DDCECA21D20FEA009E43D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78DDCECB21D20FEA009E43D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78BB70CC21D45B9600EDF78C /* GFRMainViewController.swift */,
+				78BB70CD21D45B9600EDF78C /* GFRMainViewController.xib */,
+				78BB70D221D45BE900EDF78C /* GFRMeViewController.swift */,
+				78BB70D321D45BE900EDF78C /* GFRMeViewController.xib */,
+				781C7DBE21DEF19700AF6D62 /* GFRFocusViewController.swift */,
+				781C7DBF21DEF19700AF6D62 /* GFRFocusViewController.xib */,
+				781C7DC221DEF1BE00AF6D62 /* GFRHotViewController.swift */,
+				781C7DC321DEF1BE00AF6D62 /* GFRHotViewController.xib */,
+				781C7DC621DEF1CE00AF6D62 /* GFRNearViewController.swift */,
+				781C7DC721DEF1CE00AF6D62 /* GFRNearViewController.xib */,
+				784CA8FE21E6D7B0006A005B /* GFRMainTopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78DDCECC21D20FEA009E43D2 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		78DDCECD21D20FEA009E43D2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCECE21D20FEA009E43D2 /* AppDelegate.swift */,
+				78DDCEDF21D21FC4009E43D2 /* ViewController.swift */,
+				78A81EE121D34EE9000E62CF /* GFRMacros.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		78DDCECF21D20FEA009E43D2 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCED021D20FEA009E43D2 /* Handler */,
+				78DDCED121D20FEA009E43D2 /* ViewModel */,
+				78DDCED221D20FEA009E43D2 /* Model */,
+				78DDCED321D20FEA009E43D2 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		78DDCED021D20FEA009E43D2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		78DDCED121D20FEA009E43D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78DDCED221D20FEA009E43D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78DDCED321D20FEA009E43D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78F0367021DDA8A400367358 /* GFRLiveViewController.swift */,
+				78F0367121DDA8A400367358 /* GFRLiveViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78DDCED421D20FEA009E43D2 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCED521D20FEA009E43D2 /* Handler */,
+				78DDCED621D20FEA009E43D2 /* ViewModel */,
+				78DDCED721D20FEA009E43D2 /* Model */,
+				78DDCED821D20FEA009E43D2 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		78DDCED521D20FEA009E43D2 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		78DDCED621D20FEA009E43D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78DDCED721D20FEA009E43D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78DDCED821D20FEA009E43D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78DDCED921D20FEA009E43D2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		78DDCEDA21D20FEA009E43D2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				78DDCEDB21D20FEA009E43D2 /* Tools */,
+				78DDCEDC21D20FEA009E43D2 /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		78DDCEDB21D20FEA009E43D2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		78DDCEDC21D20FEA009E43D2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				78BB70C821D44E9400EDF78C /* GFRExtension+UIButton.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		78DDCEDD21D20FEA009E43D2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				78A81EE521D35712000E62CF /* GFRTabBarController.swift */,
+				78F0366E21DDA82900367358 /* GFRBaseViewController.swift */,
+				78F0366C21DDA22400367358 /* GFRBaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		81C39730499B54D9596B03B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79BA4ABE2C1858E26AC0ECA2 /* Pods_Graduate_live.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78DDCEAB21D20C69009E43D2 /* Graduate-live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78DDCEBE21D20C6A009E43D2 /* Build configuration list for PBXNativeTarget "Graduate-live" */;
+			buildPhases = (
+				8A5E77F21175E93932472E42 /* [CP] Check Pods Manifest.lock */,
+				78DDCEA821D20C69009E43D2 /* Sources */,
+				78DDCEA921D20C69009E43D2 /* Frameworks */,
+				78DDCEAA21D20C69009E43D2 /* Resources */,
+				2960B5488984F4A2A6B9545A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Graduate-live";
+			productName = "Graduate-live";
+			productReference = 78DDCEAC21D20C69009E43D2 /* Graduate-live.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78DDCEA421D20C69009E43D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GFR;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "郭丰锐";
+				TargetAttributes = {
+					78DDCEAB21D20C69009E43D2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 78DDCEA721D20C69009E43D2 /* Build configuration list for PBXProject "Graduate-live" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78DDCEA321D20C69009E43D2;
+			productRefGroup = 78DDCEAD21D20C69009E43D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78DDCEAB21D20C69009E43D2 /* Graduate-live */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78DDCEAA21D20C69009E43D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781C7DC921DEF1CE00AF6D62 /* GFRNearViewController.xib in Resources */,
+				78DDCEBA21D20C6A009E43D2 /* LaunchScreen.storyboard in Resources */,
+				78BB70D521D45BE900EDF78C /* GFRMeViewController.xib in Resources */,
+				781C7DC521DEF1BE00AF6D62 /* GFRHotViewController.xib in Resources */,
+				78BB70CF21D45B9600EDF78C /* GFRMainViewController.xib in Resources */,
+				781C7DC121DEF19700AF6D62 /* GFRFocusViewController.xib in Resources */,
+				78DDCEB721D20C6A009E43D2 /* Assets.xcassets in Resources */,
+				78F0367321DDA8A400367358 /* GFRLiveViewController.xib in Resources */,
+				78DDCEB521D20C69009E43D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2960B5488984F4A2A6B9545A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Graduate-live/Pods-Graduate-live-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Graduate-live/Pods-Graduate-live-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5E77F21175E93932472E42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Graduate-live-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78DDCEA821D20C69009E43D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F0367221DDA8A400367358 /* GFRLiveViewController.swift in Sources */,
+				78BB70C921D44E9400EDF78C /* GFRExtension+UIButton.swift in Sources */,
+				781C7DC421DEF1BE00AF6D62 /* GFRHotViewController.swift in Sources */,
+				78A81EE621D35712000E62CF /* GFRTabBarController.swift in Sources */,
+				781C7DC021DEF19700AF6D62 /* GFRFocusViewController.swift in Sources */,
+				78DDCEE021D21FC4009E43D2 /* ViewController.swift in Sources */,
+				78DDCEDE21D20FEA009E43D2 /* AppDelegate.swift in Sources */,
+				78F0366F21DDA82900367358 /* GFRBaseViewController.swift in Sources */,
+				78A81EE221D34EE9000E62CF /* GFRMacros.swift in Sources */,
+				78BB70CE21D45B9600EDF78C /* GFRMainViewController.swift in Sources */,
+				78F0366D21DDA22400367358 /* GFRBaseNavigationController.swift in Sources */,
+				78BB70D421D45BE900EDF78C /* GFRMeViewController.swift in Sources */,
+				781C7DC821DEF1CE00AF6D62 /* GFRNearViewController.swift in Sources */,
+				784CA8FF21E6D7B0006A005B /* GFRMainTopView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78DDCEB321D20C69009E43D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78DDCEB421D20C69009E43D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78DDCEB821D20C6A009E43D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78DDCEB921D20C6A009E43D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78DDCEBC21D20C6A009E43D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78DDCEBD21D20C6A009E43D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78DDCEBF21D20C6A009E43D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6948DAE72B68DAA28A401BEB /* Pods-Graduate-live.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83A3UH43TP;
+				INFOPLIST_FILE = "Graduate-live/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gfr.live.Graduate-live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78DDCEC021D20C6A009E43D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B590EC83214237A1387EA31D /* Pods-Graduate-live.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83A3UH43TP;
+				INFOPLIST_FILE = "Graduate-live/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gfr.live.Graduate-live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78DDCEA721D20C69009E43D2 /* Build configuration list for PBXProject "Graduate-live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DDCEBC21D20C6A009E43D2 /* Debug */,
+				78DDCEBD21D20C6A009E43D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78DDCEBE21D20C6A009E43D2 /* Build configuration list for PBXNativeTarget "Graduate-live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DDCEBF21D20C6A009E43D2 /* Debug */,
+				78DDCEC021D20C6A009E43D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78DDCEA421D20C69009E43D2 /* Project object */;
+}
