@@ -13,6 +13,11 @@ class GFRMainViewController: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var contentScrollView: UIScrollView!
     
     lazy var dataList = ["关注","热门","附近"]
+    
+    lazy var topView:GFRMainTopView = GFRMainTopView(frame: CGRect(x: 0, y: 0, width: 200, height: 50), titleNames: dataList)
+    
+    
+    
     let gfrFousView = GFRFocusViewController()
     let gfrHotView = GFRHotViewController()
     let gfrNearView = GFRNearViewController()
@@ -20,6 +25,12 @@ class GFRMainViewController: UIViewController,UIScrollViewDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        topView.topCloser = {
+            tag in
+            let point:CGPoint = CGPoint(x: CGFloat(tag) * SCREEN_WIDTH, y: self.contentScrollView.contentOffset.y)
+            
+            self.contentScrollView.setContentOffset(point, animated: true)
+        }
         contentScrollView.delegate = self
         initUI()
         
@@ -46,10 +57,16 @@ class GFRMainViewController: UIViewController,UIScrollViewDelegate {
         
         self.contentScrollView.contentOffset = CGPoint(x: SCREEN_WIDTH, y: 0)
         
+        self.scrollViewDidEndScrollingAnimation(self.contentScrollView)
+        
+        
     }
     
     
     func setNavUI() {
+        
+        self.navigationItem.titleView = topView
+        
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "global_search"), style: .done, target: nil, action: nil)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "title_button_more"), style: .done, target: nil, action: nil)
     }
@@ -57,9 +74,7 @@ class GFRMainViewController: UIViewController,UIScrollViewDelegate {
     @objc func goBack(){
         
     }
-   
-    //减速结束调用字控制器view的方法
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
         let width:CGFloat = SCREEN_WIDTH
         let height:CGFloat = SCREEN_HEIGHT
         let offset:CGFloat = scrollView.contentOffset.x
@@ -67,7 +82,7 @@ class GFRMainViewController: UIViewController,UIScrollViewDelegate {
         //获取索引值
         let idx:Int = Int(offset / width)
         //根据索引值返回vc引用
-//        print(self.children[idx])
+        //        print(self.children[idx])
         let vc:UIViewController = children[idx]
         
         //判断当前VC是否执行过viewDidLoad
@@ -78,5 +93,10 @@ class GFRMainViewController: UIViewController,UIScrollViewDelegate {
         vc.view.frame = CGRect(x: offset, y: 0, width: contentScrollView.frame.size.width, height: height)
         //添加字控制器view到scrollView
         scrollView.addSubview(vc.view)
+    }
+   
+    //减速结束调用字控制器view的方法
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        self.scrollViewDidEndScrollingAnimation(scrollView)
     }
 }

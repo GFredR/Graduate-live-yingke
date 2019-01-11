@@ -14,6 +14,7 @@
 		781C7DC821DEF1CE00AF6D62 /* GFRNearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781C7DC621DEF1CE00AF6D62 /* GFRNearViewController.swift */; };
 		781C7DC921DEF1CE00AF6D62 /* GFRNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781C7DC721DEF1CE00AF6D62 /* GFRNearViewController.xib */; };
 		784CA8FF21E6D7B0006A005B /* GFRMainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784CA8FE21E6D7B0006A005B /* GFRMainTopView.swift */; };
+		7873C42621E81F4500CB0562 /* Extension+GFRTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873C42521E81F4500CB0562 /* Extension+GFRTopView.swift */; };
 		78A81EE221D34EE9000E62CF /* GFRMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A81EE121D34EE9000E62CF /* GFRMacros.swift */; };
 		78A81EE621D35712000E62CF /* GFRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A81EE521D35712000E62CF /* GFRTabBarController.swift */; };
 		78BB70C921D44E9400EDF78C /* GFRExtension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BB70C821D44E9400EDF78C /* GFRExtension+UIButton.swift */; };
@@ -42,6 +43,7 @@
 		781C7DC621DEF1CE00AF6D62 /* GFRNearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRNearViewController.swift; sourceTree = "<group>"; };
 		781C7DC721DEF1CE00AF6D62 /* GFRNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GFRNearViewController.xib; sourceTree = "<group>"; };
 		784CA8FE21E6D7B0006A005B /* GFRMainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRMainTopView.swift; sourceTree = "<group>"; };
+		7873C42521E81F4500CB0562 /* Extension+GFRTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+GFRTopView.swift"; sourceTree = "<group>"; };
 		78A81EE121D34EE9000E62CF /* GFRMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRMacros.swift; sourceTree = "<group>"; };
 		78A81EE521D35712000E62CF /* GFRTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRTabBarController.swift; sourceTree = "<group>"; };
 		78BB70C821D44E9400EDF78C /* GFRExtension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GFRExtension+UIButton.swift"; sourceTree = "<group>"; };
@@ -82,7 +84,6 @@
 				6948DAE72B68DAA28A401BEB /* Pods-Graduate-live.debug.xcconfig */,
 				B590EC83214237A1387EA31D /* Pods-Graduate-live.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -345,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				78BB70C821D44E9400EDF78C /* GFRExtension+UIButton.swift */,
+				7873C42521E81F4500CB0562 /* Extension+GFRTopView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -507,6 +509,7 @@
 				781C7DC021DEF19700AF6D62 /* GFRFocusViewController.swift in Sources */,
 				78DDCEE021D21FC4009E43D2 /* ViewController.swift in Sources */,
 				78DDCEDE21D20FEA009E43D2 /* AppDelegate.swift in Sources */,
+				7873C42621E81F4500CB0562 /* Extension+GFRTopView.swift in Sources */,
 				78F0366F21DDA82900367358 /* GFRBaseViewController.swift in Sources */,
 				78A81EE221D34EE9000E62CF /* GFRMacros.swift in Sources */,
 				78BB70CE21D45B9600EDF78C /* GFRMainViewController.swift in Sources */,
