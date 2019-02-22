@@ -8,6 +8,13 @@ pod 'YYKit'
 pod 'SnapKit'
 pod 'SDWebImage'
 pod 'Alamofire'
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'RxDataSources'
+pod 'SwiftyJSON'
+pod 'Moya/RxSwift'
+pod 'NSObject+Rx'
+pod 'SVProgressHUD'
   # Pods for Graduate-live
 
 end
